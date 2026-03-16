@@ -10,8 +10,11 @@ st.set_page_config(page_title="House Price Predictor", layout="wide")
 # Load model
 
 # Load model
-with open("house_price_model.pkl", "rb") as file:
-    model = pickle.load(file)
+import os
+
+model_path = os.path.join(os.path.dirname(__file__), "house_price_model.pkl")
+
+with open(model_path, "rb") as file:
 # Title
 
 st.title("🏠 House Price Prediction App")
