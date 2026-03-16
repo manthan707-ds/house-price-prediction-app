@@ -2,24 +2,20 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+import os
 
 # Page configuration
-
 st.set_page_config(page_title="House Price Predictor", layout="wide")
 
 # Load model
-
-# Load model
-import os
-
 model_path = os.path.join(os.path.dirname(__file__), "house_price_model.pkl")
 
 with open(model_path, "rb") as file:
-# Title
+    model = pickle.load(file)
 
+# Title
 st.title("🏠 House Price Prediction App")
 st.write("This ML app predicts the price of a house based on key features.")
-
 # Sidebar inputs
 
 st.sidebar.header("Enter House Details")
