@@ -79,10 +79,10 @@ Run the Streamlit app
 ```
 streamlit run app.py
 ```
+
 ## App Preview
 
-![App Screenshot](app_image.png)
----
+![House Price Prediction App](ML-project.png)
 
 ##  App link
 
