@@ -82,11 +82,11 @@ streamlit run app.py
 
 ---
 
-## 📷 App Preview
+##  App link
 
-Streamlit app interface for predicting house prices.
+Streamlit app link for predicting house prices.
 
-*(Add screenshot here after deployment)*
+*[(Add screenshot here after deployment)](https://house-price-prediction-app-tsz2wpwj4m5vsyatv7ejd3.streamlit.app/)*
 
 ---
 
